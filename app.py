@@ -93,7 +93,7 @@ def temperature_s(start):
         new_date = date.strftime("%Y-%m-%d")
         str_date_range.append(new_date)
 
-    # Grabbing avg, min & max temps    
+    # Grabbing average, minimum & maximum temps    
     temp_avg = session.query(func.avg(Measurement.tobs))\
                 .filter(Measurement.date.in_(str_date_range))[0][0]
     temp_min = session.query(func.min(Measurement.tobs))\
