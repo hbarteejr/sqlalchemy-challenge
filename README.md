@@ -22,8 +22,7 @@ Some of the tools used were Python and SQLAlchemy to do basic climate analysis a
 * Which station has the highest number of observations?
 * Design a query to retrieve the last 12 months of temperature observation data (TOBS).
 * Filter by the station with the highest number of observations.
-* Plot the results as a histogram with `bins=12`.
-![station-histogram](Images/station-histogram.png)
+* Plot the results as a histogram with `bins=12`
 
 An attempt was made to complete Step 2 - Climate App by designing a Flask API based on the queries that were developed.
 
