@@ -44,5 +44,7 @@ An attempt was made to complete Step 2 - Climate App by designing a Flask API ba
 * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 - - -
 
-An additoinal attempt was made to do one of the bonus activities in this project.  
+An additional attempt was made to do one of the bonus activities in this project. 
+
+
 
